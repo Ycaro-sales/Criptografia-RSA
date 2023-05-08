@@ -4,17 +4,16 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stdint.h>
-
 #include "../utils.h"
-#include "gerador_de_chaves.c"
+#include "gerador_de_chaves.h"
 
 void desencriptar(){
     FILE *mensagemEncriptada;
     FILE *mensagemDesencriptada;
     mensagemEncriptada = fopen("mensagemEncriptada.txt", "r");
     mensagemDesencriptada = fopen("mensagemDesencriptada.txt", "w");
-    uint64_t num, p, q, n;
-    int64_t d, phi, e;
+    uint64_t num, p, q, n, phi, e;
+    int64_t d;
   
     printf("\nDigite o P: ");
     scanf("%lu", &p);

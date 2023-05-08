@@ -60,13 +60,13 @@ void chavePublica() {
 	totienteEuler = (p-1)*(q-1);
 
 	do {
-		printf("\n\nAgora digite um expoente relativamente primo a %lu:\n", totienteEuler);
+		printf("\n\nAgora digite um expoente relativamente primo a %lu:", totienteEuler);
 		scanf("%ld", &e);
 
 		if (!checkPrimo(e)){
-			printf("O número digitado não é primo!\n");
+			printf("\nO número digitado não é primo!\n");
 		} else if (!descobreRelativamentePrimo(totienteEuler, p, q, e)){
-			printf("O número digitado não é relativamente primo!\n");
+			printf("\nO número digitado não é relativamente primo!\n");
 		}
 	} while (!checkPrimo(e) || !descobreRelativamentePrimo(totienteEuler, p, q, e));
 
