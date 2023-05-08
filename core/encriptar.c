@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
 #include "../utils.h"
 
 #define MAX 1000000
