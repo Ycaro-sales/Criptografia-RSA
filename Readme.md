@@ -5,7 +5,8 @@
 Programa de geração de chaves, desencriptação e encriptação utilizando critografia RSA, Feito em C
 
 ## Autores
-	* Diêgo de Araujo Correia
-	* Gabriel Nathan Telaroli Dias Calixto.
-	* Másio César de Carvalho Moraes
-	* Ycaro Bruno Souza Sales
+	* Diêgo de Araujo Correia - Ciência da computação
+	* Gabriel Nathan Telaroli Dias Calixto - Ciência da computação
+	* Másio César de Carvalho Moraes - Ciência da computação
+	* Ycaro Bruno Souza Sales - Engenharia da computação
+ 
