@@ -8,7 +8,7 @@ Programa de geração de chaves, desencriptação e encriptação utilizando cri
 - Insira o seguinte comando no shell
 
 ```
-	gcc main.c utils.c core/desencriptar.c core/encriptar.c core/gerador_de_chaves.c -o main`
+gcc main.c utils.c core/desencriptar.c core/encriptar.c core/gerador_de_chaves.c -o main`
 ```
 e depois:
 
